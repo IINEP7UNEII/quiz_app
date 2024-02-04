@@ -1,0 +1,104 @@
+body 
+{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+
+    #title-container
+    {
+        position: absolute;
+        text-align: center;
+        font-size: 64px;
+        width: 100%;
+        top: 15%;
+        color: #fff;
+    }
+
+    #quiz-container 
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 400px;
+        max-width: 50%;
+        background-color: #272727;
+        padding: 30px;
+        box-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+
+        #question-text
+        {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .choice-btn
+        {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            width: 300px;
+            border: none;
+            border-radius: 4px;
+            margin: 8px;
+        }
+
+        .choice-btn:hover
+        {
+            background-color: #005d9b;
+        }
+
+        .nav-btn
+        {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #0061a1;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            margin: 8px;
+            width: 45%;
+            margin-top: 25px;
+        }
+
+        .nav-btn:hover 
+        {
+            background-color: #0099ff;
+        }
+    }
+
+    .footer
+    {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+
+        #col1
+        {
+            width: 33.333%;
+            float: left;
+        }
+
+        #col2
+        {
+            width: 33.333%;
+            float: left;
+        }
+
+        #col3
+        {
+            width: 33.333%;
+            float: left;
+        }
+    }
+}
